@@ -1,4 +1,3 @@
-# Program published on https://beginnersbook.com
 
 # Python program to perform Addition Subtraction Multiplication
 # and Division of two numbers
