@@ -1,0 +1,29 @@
+
+# Python program to perform Addition Subtraction Multiplication
+# and Division of two numbers
+
+num1 = int(input("Enter First Number: "))
+num2 = int(input("Enter Second Number: "))
+num3 = int(input("Enter Third Number: "))
+
+print("Enter which operation would you like to perform?")
+ch = input("Enter any of these char for specific operation +,-,*,/: ")
+
+result = 0
+final_result = 0
+if ch == '+':
+    result = num1 + num2
+    final_result = result + num3
+elif ch == '-':
+    result = num1 - num2
+    final_result = result - num3
+elif ch == '*':
+    result = num1 * num2
+    final_result = result * num3
+elif ch == '/':
+    result = num1 / num2
+    final_result = result / num3
+else:
+    print("Input character is not recognized!")
+
+print(result, ch , num3, ":", final_result)
